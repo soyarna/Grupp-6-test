@@ -2,7 +2,7 @@
 import exifr from 'exifr';
 
 // read the metadata from the greyhound image
-let metadata = await exifr.parse('greyhound-with-meta.jpg');
+let metadata = await exifr.parse('beachwithgps.jpg');
 
 // check that we got the metadata
 console.log(metadata);
